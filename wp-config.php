@@ -38,6 +38,7 @@ define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 
 define('DB_SSL', true);
+define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 
 /**#@+
  * Authentication Unique Keys and Salts.
